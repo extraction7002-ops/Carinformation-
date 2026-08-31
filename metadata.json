@@ -1,0 +1,6 @@
+{
+  "name": "Traffic Challan & RC Portal",
+  "description": "Android application to track traffic e-challans, vehicle registration date, RC details, insurance, PUCC validity, traffic camera evidence, payment receipts, and AI legal dispute assistance.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
