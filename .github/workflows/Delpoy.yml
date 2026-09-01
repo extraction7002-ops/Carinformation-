@@ -27,10 +27,10 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --include=dev
 
-      - name: Build
-        run: npm run build
+      - name: Build Static App for Pages
+        run: npx vite build --base=./
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
