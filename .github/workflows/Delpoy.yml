@@ -1,4 +1,4 @@
-jobs:name: Deploy Vite React App to Pages
+name: Deploy Vite React App to Pages
 
 on:
   push:
